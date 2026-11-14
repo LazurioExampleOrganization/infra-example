@@ -17,7 +17,7 @@ confirmed no future charges. The admin center still displays **Disabled** and
 recurring billing **On**. These are separate observations: neither an expiry
 date nor the no-charge assurance proves that Sam can use the services.
 The remaining Outlook and renewal checks are tracked in
-[infra issue #5](https://github.com/LazurioExampleOrganization/infra/issues/5).
+[infra issue #5](https://github.com/LazurioExampleOrganization/infra-example/issues/5).
 
 ## State
 
@@ -208,7 +208,7 @@ not re-audited as part of this narrow callback change.
 The identifiers are available now; another task does not need to wait for
 Tenant ID discovery. Use the tenant and client IDs in this record, Sam's
 fictional account and the Example site/file fixture. The app configuration
-was published separately in [infra PR #8](https://github.com/LazurioExampleOrganization/infra/pull/8);
+was published separately in [infra PR #8](https://github.com/LazurioExampleOrganization/infra-example/pull/8);
 this service-verification task has not changed that application or its consent.
 
 A Microsoft browser session is not a Lazurio integration connection. Do not
