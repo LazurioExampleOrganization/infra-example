@@ -228,7 +228,7 @@ Merge a pull request with a merge commit ("Create a merge commit",
 request's commits keep their author, the noreply address of whoever wrote
 them, and GitHub writes the merge commit itself with the merging account's
 noreply address when that account keeps its email private, as the Owner's
-does (infra#10, merge 442877d2).
+does (infra-example#10, merge 442877d2).
 
 A squash merge would replace the commits with a new one authored with the
 merging account's default commit email, which need not be the noreply

@@ -1,16 +1,19 @@
-# Lazurio Example Organization infra: instructions for agents
+# Lazurio Example Organization infra-example: instructions for agents
 
-This scope owns the infrastructure, access governance and deployment context
-of Lazurio Example Organization.
+Since 2026-11-14 this public repository is `infra-example`, public
+documentation and an example only. Nothing here is authoritative.
 
 ## Source of truth
 
-The authoritative records in this repository are the documents about the
-GitHub Organization, access, repository governance, deployment topology and
-operational runbooks.
+The Organization's authoritative access records are in its private `infra`
+repository (`LazurioExampleOrganization/infra`, `access/`), the Deployment
+Repo that the root's `modules.manifest.json` slot `infra` and
+`company.gen3.json` (`infra/access`) name. Propose and record access changes
+there, not here.
 
-The root `README.md`, `MAP.md`, `ARCHITECTURE.md` and `modules.manifest.json`
-describe that `infra/` exists; the detailed context belongs here.
+Until the rename on 2026-11-14 the records in this repository were the
+authoritative ones. The `access/` documents here are a public copy as of commit
+`06ca1a2` and are not kept current.
 
 ## Rules
 
@@ -22,9 +25,9 @@ describe that `infra/` exists; the detailed context belongs here.
 - Describe access changes concretely: who, to what, why and how it will be
   audited.
 
-## Current minimum
+## Before the rename (historical)
 
 The GitHub Organization `LazurioExampleOrganization` holds the repositories of
-Lazurio Example Organization. Its verified access state is recorded in
-`access/github-organization.md`. Further infrastructure is added only as real
-decisions are made.
+Lazurio Example Organization. Until 2026-11-14 its verified access state was
+recorded in `access/github-organization.md` of this repository; the current
+record is in the private `infra`.

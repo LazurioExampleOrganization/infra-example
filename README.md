@@ -1,7 +1,15 @@
-# Lazurio Example Organization infra
+# Lazurio Example Organization infra-example
 
-`infra/` is the root-level nested Git repository for the infrastructure,
-access governance and deployment context of Lazurio Example Organization.
+This public repository was the Organization's `infra` until 2026-11-14. Root
+decision 0204 (point 10) made the private Deployment Repo the Organization's
+`infra`, which also holds the access records now. This repository keeps the
+public documentation and an example of those records as they stood at the
+rename (commit `06ca1a2`). The text below describes that earlier state: where
+it says `infra`, it means this repository.
+
+Before the rename this was the root-level nested Git repository for the
+infrastructure, access governance and deployment context of Lazurio Example
+Organization.
 
 It holds the verified state of the GitHub Organization
 `LazurioExampleOrganization`. The full access record is in
