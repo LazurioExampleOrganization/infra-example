@@ -1,4 +1,9 @@
-# Lazurio Example Organization infra: instructions for agents
+# Lazurio Example Organization infra-example: instructions for agents
+
+Since 2026-11-14 this public repository is `infra-example`. The Organization's
+`infra` slot is its private Deployment Repo, which holds the authoritative
+access records; propose access changes there. This repository is public
+documentation and an example only.
 
 This scope owns the infrastructure, access governance and deployment context
 of Lazurio Example Organization.
